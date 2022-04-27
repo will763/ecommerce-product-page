@@ -24,13 +24,13 @@ const Global = createGlobalStyle`
         padding:0 ;
     }
 
-    body {
+    html,body {
         min-height:100vh ;
         width:100% ;
         font-family: 'Kumbh Sans', sans-serif;
         font-weight:400;
         scrollbar-width: none;
-        overflow-x:hidden ;
+        overflow-x:hidden;
         -ms-overflow-style: none;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
